@@ -26,10 +26,10 @@ Time-series deep learning is applied to forecast future pollution values based o
 ## 📊 Results
 
 ### Prediction vs Actual
-![Prediction vs Actual](results/prediction_vs_actual.png)
+![LSTM prediction vs actual PM2.5](results/prediction_vs_actual.png)
 
 ### Training vs Validation Loss
-![Loss Curve](results/loss_curve.png)
+![Training vs validation loss](results/loss_curve.png)
 
 ---
 
