@@ -1,36 +1,34 @@
-# -LSTM-Air-Pollution-Forecasting
-# 🌫️ Air Pollution Forecasting using LSTM
+# LSTM Air Pollution Forecasting
 
-This project predicts **PM2.5 air pollution levels** using a **Long Short-Term Memory (LSTM) neural network**.  
-Time-series deep learning is applied to forecast future pollution values based on historical data.
+## 📌 Overview
+This project demonstrates **Air Pollution Forecasting using LSTM (Long Short-Term Memory) networks**.  
+The dataset used is the **Beijing PM2.5 dataset** which contains air quality and meteorological data.  
+The goal is to forecast future pollution levels based on historical trends.
 
----
-
-## 🚀 Project Workflow
-1. **Data Preprocessing**  
-   - Handled missing values and outliers  
-   - Applied scaling for LSTM input  
-   - Created time series windows  
-
-2. **Model Development**  
-   - Implemented **LSTM model** in TensorFlow/Keras  
-   - Trained with historical PM2.5 values  
-   - Applied **train-validation-test split**  
-
-3. **Evaluation**  
-   - Metrics: **RMSE, MAE, R²**  
-   - Compared predicted vs actual values  
-
----
+## ⚙️ Project Workflow
+- Data Preprocessing (handling missing values, scaling, and feature selection)
+- Exploratory Data Analysis (EDA) with visualizations
+- Building and training the LSTM model
+- Model Evaluation
+- Visualization of results
 
 ## 📊 Results
-
-- **Loss Curve**
-![Loss Curve](results/loss_curve.png)
-
-- **Prediction vs Actual**
+### Prediction vs Actual
 ![Prediction vs Actual](results/prediction_vs_actual.png)
 
----
+### Loss Curve
+![Loss Curve](results/loss_curve.png)
 
-## 📂 Project Structure
+## 🛠️ Tech Stack
+- Python
+- Jupyter Notebook
+- TensorFlow / Keras
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn
+
+## 🚀 How to Run
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/Rahemath13/-LSTM-Air-Pollution-Forecasting.git
+   cd -LSTM-Air-Pollution-Forecasting
